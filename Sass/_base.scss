@@ -1,0 +1,19 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  --main-font-color: white;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:: before, 
+*:: after {
+  box-sizing: inherit;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
