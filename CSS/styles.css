@@ -27,7 +27,7 @@ list-style-type: none;
   margin-right: auto;
   }
 
-
+/*Header*/
 .site-nav {
  display: flex; 
 }
@@ -67,6 +67,9 @@ list-style-type: none;
 .site-nav-div {
   margin-left: auto;
 }
+
+/*HERO*/
+
 .hero-heading {
   margin-top: 0;
   margin-bottom: 30px;
