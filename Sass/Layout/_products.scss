@@ -114,7 +114,6 @@ border-radius: 4px;*/
   letter-spacing: 0.03em;
   color: #212121;
   transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-item:hover,
 .product-item:focus {
@@ -134,6 +133,7 @@ border-radius: 4px;*/
   font-size: 16px;
   line-height: 26px;
   border: none;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products-list-main {
