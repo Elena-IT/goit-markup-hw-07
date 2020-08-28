@@ -1,14 +1,14 @@
 .clients-section {
   margin-bottom: 94px;
 }
-.clients-icon-list {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .clients-list {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  .clients-icon-list {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .clients-header {
@@ -24,11 +24,11 @@
   fill: #afb1b8;
 }
 
-.client-icon:last-child {
-  margin-right: 0px;
-}
 .client-icon {
   margin-right: 30px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .client-icon-svg:hover,
@@ -36,12 +36,12 @@
   fill: #2196f3;
 }
 
-.customers-list-item-link:hover,
-.customers-list-item-link:focus {
-  border-color: #2196f3;
-}
 .customers-list-item-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+  }
 }
 
 .border {

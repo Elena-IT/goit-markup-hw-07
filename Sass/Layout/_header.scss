@@ -14,16 +14,12 @@
 .site-nav .nav-link-item:last-child {
   margin-right: 0;
 }
-.nav-link {
-  color: #212121;
-}
 
 .contact-list-item {
   margin-right: 30px;
-}
-
-.contact-list-item:not(:last-child) {
-  margin-bottom: 9px;
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .logo {
@@ -42,10 +38,14 @@
   /*justify-content: space-between;*/
 }
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428;
   letter-spacing: 0.02em;
+  color: #212121;
   text-decoration: none;
   &:hover,
   &:focus {
@@ -56,16 +56,6 @@
   list-style: none;
   text-decoration: none;
   display: block;
-}
-.nav-link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428;
-  letter-spacing: 0.02em;
-  color: #212121;
 }
 
 /*.nav-link .current {
